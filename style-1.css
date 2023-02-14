@@ -1,0 +1,55 @@
+body{position: relative;
+width: 1440px;
+height: 850px;
+background: #141414;
+font-family: 'Space Grotesk';font-size: 22px;}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url(spacegrotesk.woff2) format('woff2');
+   }
+
+#scroll-container {
+    height: 100px;
+    overflow: hidden;}
+
+#scroll-text {
+    height: 100%;
+    text-align: center;
+    position: absolute;
+width: 1404px;
+height: 771px;
+left: 85px;
+top: -16px;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 170px;
+line-height: 217px;
+color: #FFFFFF;
+ /* animation properties */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    -moz-animation: my-animation 5s linear infinite;
+    -webkit-animation: my-animation 5s linear infinite;
+    animation: my-animation 5s linear infinite;
+  }
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+  }
