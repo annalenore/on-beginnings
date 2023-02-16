@@ -1,0 +1,38 @@
+
+body{position: relative;
+background: #141414;}
+
+#container {
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    width: 1300px;
+    height: 771px;}
+
+#text{font-family: 'Franklin Gothic ATF';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 124px;
+text-align: center;
+color: #D1D1D1;}
+
+#text-2{position: absolute;
+width: 1300px;
+height: 771px;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 110px;
+line-height: 140px;
+text-align: center;
+color: #FFFFFF;}
+
+footer{
+  position: absolute;
+  text-align: center;
+  font-size: 25px;
+  color: #E9FC87;
+  position: fixed;
+  bottom: 0;
+  }

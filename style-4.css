@@ -1,0 +1,98 @@
+body{position: relative;
+    background: #BEBFC4;}
+
+* {
+    box-sizing: border-box;
+  }
+
+    .begin-box{
+    position: absolute;
+    width: 567px;
+    height: 429px;
+    left: 21px;
+    top: 24px;
+    background: #203B2A;
+    border-radius: 15px;
+    z-index: 1;
+    }
+    .begin-text{position: absolute;
+        width: 298px;
+        height: 191px;
+        left: 43px;
+        top: 61px;
+        font-family: 'Brawler';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 85px;
+        line-height: 104px;
+        text-align: center;
+        color: #FFFFFF;}
+
+    .chaotic-box{
+        position: absolute;
+        width: 469.87px;
+        height: 503.49px;
+        left: 1416.67px;
+        top: 352.11px;
+        background: #29375A;
+        border-radius: 80px;
+        z-index: 2}
+
+      .chaotic-text{position: absolute;
+        width: 298px;
+        height: 191px;
+        left: 43px;
+        top: 61px;
+        font-family: 'Brawler';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 85px;
+        line-height: 104px;
+        text-align: center;
+        color: #FFFFFF;}
+          
+      
+        
+
+    .box-1 {
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    border: 1px solid red;
+    background-color: yellow;
+    z-index: 2; /* Z-index controls the stacking order */
+  }
+
+  .box-2 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    height: 400px;
+    width: 200px;
+    border: 1px solid blue;
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    z-index: 3;
+
+    /* This pushes the text down and to the right */
+    padding-top: 156px;
+    padding-left: 24px;
+    text-align: right;
+
+    /* Use this to change the text orientation */
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+
+  .box-3 {
+    position: absolute;
+    z-index: 1;
+    left: 40%;
+    height: 200px;
+    width: 300px;
+    border: 1px solid rgb(5 124 58);
+    background-color: rgb(42, 224, 182);
+    font-size: 20px;
+    font-weight: bold;
+  }
