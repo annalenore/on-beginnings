@@ -1,0 +1,36 @@
+body{
+    position: relative;
+    background: #141414;
+}
+
+.text-box{
+    position: relative;
+    width: 90vw;
+    height: 48vw;
+    left: 95px;
+    top: 89px;
+    background: #BEBFC4;
+    border-radius: 40px;}
+
+.text {position: absolute;
+    width: 83vw;
+    height: 59vw;
+    left: 64px;
+    top: 162px;
+    font-family: 'Brawler';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6vw;
+    line-height: 106px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+
+footer{
+    position: relative;
+    text-align: center;
+    font-size: 2vw;
+    color: #BEBFC4;
+    position: fixed;
+    bottom: 0;
+    }

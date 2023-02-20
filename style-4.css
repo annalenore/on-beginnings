@@ -5,7 +5,7 @@ body{position: relative;
     box-sizing: border-box;
   }
 
-    .begin-box{
+.begin-box{
     position: absolute;
     width: 567px;
     height: 429px;
@@ -13,43 +13,67 @@ body{position: relative;
     top: 24px;
     background: #203B2A;
     border-radius: 15px;
-    z-index: 1;
-    }
-    .begin-text{position: absolute;
-        width: 298px;
-        height: 191px;
-        left: 43px;
-        top: 61px;
-        font-family: 'Brawler';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 85px;
-        line-height: 104px;
-        text-align: center;
-        color: #FFFFFF;}
+    z-index: 1;}
 
-    .chaotic-box{
-        position: absolute;
-        width: 469.87px;
-        height: 503.49px;
-        left: 1416.67px;
-        top: 352.11px;
-        background: #29375A;
-        border-radius: 80px;
-        z-index: 2}
+.begin-text{position: absolute;
+    width: 298px;
+    height: 191px;
+    left: 43px;
+    top: 61px;
+    font-family: 'Brawler';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 104px;
+    text-align: center;
+    color: #FFFFFF;}
 
-      .chaotic-text{position: absolute;
-        width: 298px;
-        height: 191px;
-        left: 43px;
-        top: 61px;
-        font-family: 'Brawler';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 85px;
-        line-height: 104px;
-        text-align: center;
-        color: #FFFFFF;}
+.chaotic-box{
+    position: absolute;
+    width: 469.87px;
+    height: 503.49px;
+    left: 1416.67px;
+    top: 352.11px;
+    background: #29375A;
+    border-radius: 80px;
+    z-index: 2}
+
+.chaotic-text{
+    position: absolute;
+    width: 298px;
+    height: 191px;
+    left: 43px;
+    top: 61px;
+    font-family: 'Brawler';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 104px;
+    text-align: center;
+    color: #FFFFFF;}
+
+.word-box{
+  position: absolute;
+  width: 528px;
+  height: 348px;
+  left: 1416.67px;
+  top: 24px;
+  background: #060E10;
+  border-radius: 40px;}
+
+.word-text{
+  position: absolute;
+  width: 363px;
+  height: 288px;
+  left: 80px;
+  top: 61px;
+  font-family: 'Brawler';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 156px;
+  text-align: center;
+  color: #FFFFFF;}
           
       
         
