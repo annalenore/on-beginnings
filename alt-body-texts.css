@@ -5,8 +5,8 @@ body{
 
 .text-box{
     position: relative;
-    width: 90vw;
-    height: 48vw;
+    width: 100vw;
+    height: 60vw;
     left: 95px;
     top: 89px;
     background: #BEBFC4;
@@ -15,12 +15,12 @@ body{
 .text {position: absolute;
     width: 83vw;
     height: 59vw;
-    left: 64px;
-    top: 162px;
+    left: 80px;
+    top: 100px;
     font-family: 'Brawler';
     font-style: normal;
     font-weight: 400;
-    font-size: 6vw;
+    font-size: 5vw;
     line-height: 106px;
     text-align: center;
     color: #FFFFFF;
