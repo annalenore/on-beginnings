@@ -74,9 +74,64 @@ body{position: relative;
   line-height: 156px;
   text-align: center;
   color: #FFFFFF;}
-          
-      
-        
+
+.abandoned-box{
+  position: absolute;
+  width: 459.69px;
+  height: 347.81px;
+  left: 718.8px;
+  top: 56px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  transform: rotate(89.86deg);}
+
+.abandoned-text{
+position: absolute;
+width: 384.1px;
+height: 104px;
+left: 525.46px;
+top: 489.99px;
+font-family: 'Brawler';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 78px;
+text-align: center;
+color: #000000;
+transform: rotate(-90deg);}
+
+.valery-box{
+position: absolute;
+width: 276.53px;
+height: 347.49px;
+left: 997.06px;
+top: 113.91px;
+background: #EBCD9B;
+border-radius: 15px;}
+
+.valery-text{
+position: absolute;
+width: 346px;
+height: 128px;
+left: 650px;
+top: 170px;
+font-family: 'Brawler';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 117px;
+text-align: center;
+color: #203B2A;}
+.wonder-box{}
+.wonder-text{}
+.query-box{}
+.query-text{}
+.wrongidea-box{}
+.wrongidea-text{}
+.semicolons-box{}
+.semicolons-text{}
+.end-box{}
+.end-text{}
 
     .box-1 {
     position: absolute;
