@@ -30,24 +30,24 @@ body{position: relative;
 
 .chaotic-box{
     position: absolute;
-    width: 469.87px;
-    height: 503.49px;
-    left: 1416.67px;
-    top: 352.11px;
+    width: 600px;
+    height: 505px;
+    left: 1000px;
+    top: 352px;
     background: #29375A;
     border-radius: 80px;
-    z-index: 2}
+    z-index: 3}
 
 .chaotic-text{
     position: absolute;
     width: 298px;
     height: 191px;
-    left: 43px;
+    left: 150px;
     top: 61px;
     font-family: 'Brawler';
     font-style: normal;
     font-weight: 400;
-    font-size: 85px;
+    font-size: 100px;
     line-height: 104px;
     text-align: center;
     color: #FFFFFF;}
@@ -56,10 +56,11 @@ body{position: relative;
   position: absolute;
   width: 528px;
   height: 348px;
-  left: 1416.67px;
+  left: 1000px;
   top: 24px;
   background: #060E10;
-  border-radius: 40px;}
+  border-radius: 40px;
+  z-index: 4;}
 
 .word-text{
   position: absolute;
@@ -77,61 +78,171 @@ body{position: relative;
 
 .abandoned-box{
   position: absolute;
-  width: 459.69px;
-  height: 347.81px;
-  left: 718.8px;
-  top: 56px;
+  height: 459.69px;
+  width: 347.81px;
+  left: 400px;
+  top: 100px;
   background: #FFFFFF;
-  border-radius: 20px;
-  transform: rotate(89.86deg);}
+  border-radius: 20px;;
+  z-index: 5;}
 
 .abandoned-text{
-position: absolute;
-width: 384.1px;
-height: 104px;
-left: 525.46px;
-top: 489.99px;
-font-family: 'Brawler';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 78px;
-text-align: center;
-color: #000000;
-transform: rotate(-90deg);}
+  position: absolute;
+  width: 528px;
+  height: 348px;
+  left: 10px;
+  top: 24px;font-family: 'Brawler';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 156px;
+  text-align: center;
+  color: #000000;;
+  transform: rotate(-90deg);}
 
 .valery-box{
-position: absolute;
-width: 276.53px;
-height: 347.49px;
-left: 997.06px;
-top: 113.91px;
-background: #EBCD9B;
-border-radius: 15px;}
+  position: absolute;
+  height: 300px;
+  width: 370px;
+  left: 700px;
+  top: 120px;
+  background: #EBCD9B;
+  border-radius: 15px;
+  z-index: 6}
 
 .valery-text{
+  position: absolute;
+  width: 346px;
+  height: 128px;
+  left: 10px;
+  top: 90px;
+  font-family: 'Brawler';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 117px;
+  text-align: center;
+  color: #203B2A;}
+
+.wonder-box{
 position: absolute;
-width: 346px;
-height: 128px;
-left: 650px;
-top: 170px;
+width: 400px;
+height: 301px;
+left: 630px;
+top: 328px;
+background: #B4BCBC;
+border-radius: 60px;
+z-index: 7}
+
+.wonder-text{
+position: absolute;
+width: 373px;
+height: 205px;
+left: 10px;
+top: 150px;
 font-family: 'Brawler';
 font-style: normal;
 font-weight: 400;
 font-size: 96px;
 line-height: 117px;
 text-align: center;
-color: #203B2A;}
-.wonder-box{}
-.wonder-text{}
-.query-box{}
-.query-text{}
-.wrongidea-box{}
-.wrongidea-text{}
-.semicolons-box{}
-.semicolons-text{}
-.end-box{}
-.end-text{}
+color: #000000;}
+
+.query-box{
+position: absolute;
+width: 230px;
+height: 208px;
+left: 800px;
+top: 616px;
+background: #FFFFFF;
+border-radius: 40px;
+z-index: 8}
+
+.query-text{
+  position: absolute;
+  width: 185px;
+  height: 98px;
+  left: 20px;
+  top: 50px;
+  font-family: 'Brawler';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 78px;
+  text-align: center;
+  color: #000000;}
+
+.wrongidea-box{
+position: absolute;
+height: 290px;
+width: 550px;
+left: 300px;
+top: 580px;
+background: #EBCD9B;
+border-radius: 80px;
+z-index: 2
+}
+.wrongidea-text{
+  position: absolute;
+  width: 349px;
+  height: 104px;
+  left: 100px;
+  top: 70px;
+  font-family: 'Brawler';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 78px;
+  text-align: center;
+  color: #000000;
+}
+.semicolons-box{
+position: absolute;
+width: 380px;
+height: 310px;
+left: 21px;
+top: 550px;
+background: #FFFFFF;
+border-radius: 70px;
+z-index: 8}
+
+.semicolons-text{
+  position: absolute;
+  width: 379px;
+  height: 201px;
+  left: 10px;
+  top: 60px;
+  font-family: 'Brawler';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  color: #000000;
+}
+.end-box{
+position: absolute;
+width: 350px;
+height: 350px;
+left: 100px;
+top: 250px;
+background: #141414;
+border-radius: 30px;
+z-index: 9
+}
+.end-text{
+position: absolute;
+width: 300px;
+height: 300px;
+left: 50px;
+top: 100px;
+font-family: 'Brawler';
+font-style: normal;
+font-weight: 400;
+font-size: 140px;
+line-height: 78px;
+text-align: center;
+color: #FFFFFF;}
 
     .box-1 {
     position: absolute;

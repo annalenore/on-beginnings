@@ -5,22 +5,22 @@ body{
 
 .text-box{
     position: relative;
-    width: 100vw;
-    height: 60vw;
+    width: 80vw;
+    height: 70vw;
     left: 95px;
     top: 89px;
     background: #BEBFC4;
     border-radius: 40px;}
 
 .text {position: absolute;
-    width: 83vw;
-    height: 59vw;
+    width: 70vw;
+    height: 50vw;
     left: 80px;
     top: 100px;
     font-family: 'Brawler';
     font-style: normal;
     font-weight: 400;
-    font-size: 5vw;
+    font-size: 60px;
     line-height: 106px;
     text-align: center;
     color: #FFFFFF;
