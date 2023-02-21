@@ -3,19 +3,10 @@ body{
     background: #141414;
 }
 
-.text-box{
-    position: relative;
-    width: 80vw;
-    height: 70vw;
-    left: 95px;
-    top: 89px;
-    background: #BEBFC4;
-    border-radius: 40px;}
-
 .text {position: absolute;
     width: 70vw;
     height: 50vw;
-    left: 80px;
+    left: 200px;
     top: 100px;
     font-family: 'Brawler';
     font-style: normal;
@@ -24,7 +15,30 @@ body{
     line-height: 106px;
     text-align: center;
     color: #FFFFFF;
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    -moz-animation: my-animation 5s linear infinite;
+    -webkit-animation: my-animation 5s linear infinite;
+    animation: my-animation 5s linear infinite;
+  }
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
     }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }}
 
 footer{
     position: relative;

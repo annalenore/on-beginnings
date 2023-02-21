@@ -10,7 +10,7 @@ body{
 .text{position: absolute;
     width: 783px;
     height: 722px;
-    left: 57px;
+    left: 100px;
     top: 66px;
     font-family: 'Brawler';
     font-style: normal;
@@ -21,7 +21,32 @@ body{
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 20px;
-    text-align: left;}
+    text-align: left;
+-moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    -moz-animation: my-animation 5s linear infinite;
+    -webkit-animation: my-animation 5s linear infinite;
+    animation: my-animation 5s linear infinite;
+  }
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+  }
 
 .green-box{
     position: absolute;
@@ -39,7 +64,8 @@ body{
     left: 1180px;
     top: 299.84px;
     background: #BEBFC4;
-    border-radius: 80px;}
+    border-radius: 80px;
+    }
 
 .tan-box{
     position: absolute;
