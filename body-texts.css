@@ -7,14 +7,6 @@ body{
     box-sizing: border-box;
   }
 
-.text-box{position: relative;
-    width: 860px;
-    height: 822.93px;
-    top: 33.07px;
-    background: #FFFFFF;
-    border-radius: 80px;
-    z-index: 1;}
-
 .text{position: absolute;
     width: 783px;
     height: 722px;

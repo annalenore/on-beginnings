@@ -5,6 +5,7 @@ body{position: relative;
     box-sizing: border-box;
   }
 
+/* Begin Box */
 .begin-box{
     position: absolute;
     width: 567px;
@@ -15,6 +16,7 @@ body{position: relative;
     border-radius: 15px;
     z-index: 1;}
 
+/* Begin Text */
 .begin-text{position: absolute;
     width: 298px;
     height: 191px;
@@ -28,6 +30,7 @@ body{position: relative;
     text-align: center;
     color: #FFFFFF;}
 
+/* Chaotic Holiday Party Box */
 .chaotic-box{
     position: absolute;
     width: 600px;
@@ -38,6 +41,7 @@ body{position: relative;
     border-radius: 80px;
     z-index: 3}
 
+/* Chaoric Holiday Party Text */
 .chaotic-text{
     position: absolute;
     width: 298px;
@@ -52,6 +56,7 @@ body{position: relative;
     text-align: center;
     color: #FFFFFF;}
 
+/* Word Box */
 .word-box{
   position: absolute;
   width: 528px;
@@ -62,6 +67,7 @@ body{position: relative;
   border-radius: 40px;
   z-index: 4;}
 
+/* Word Text */
 .word-text{
   position: absolute;
   width: 363px;
@@ -76,6 +82,7 @@ body{position: relative;
   text-align: center;
   color: #FFFFFF;}
 
+/* Abandoned Box */
 .abandoned-box{
   position: absolute;
   height: 459.69px;
@@ -86,6 +93,7 @@ body{position: relative;
   border-radius: 20px;;
   z-index: 5;}
 
+/* Abandoned Text */
 .abandoned-text{
   position: absolute;
   width: 528px;
@@ -100,6 +108,7 @@ body{position: relative;
   color: #000000;;
   transform: rotate(-90deg);}
 
+/* Valery Box */
 .valery-box{
   position: absolute;
   height: 300px;
@@ -110,6 +119,7 @@ body{position: relative;
   border-radius: 15px;
   z-index: 6}
 
+/* Valery Text */
 .valery-text{
   position: absolute;
   width: 346px;
@@ -124,6 +134,7 @@ body{position: relative;
   text-align: center;
   color: #203B2A;}
 
+/* Wonder Box */
 .wonder-box{
 position: absolute;
 width: 400px;
@@ -134,6 +145,7 @@ background: #B4BCBC;
 border-radius: 60px;
 z-index: 7}
 
+/* Wonder Text */
 .wonder-text{
 position: absolute;
 width: 373px;
@@ -148,6 +160,7 @@ line-height: 117px;
 text-align: center;
 color: #000000;}
 
+/* Query Box */
 .query-box{
 position: absolute;
 width: 230px;
@@ -158,6 +171,7 @@ background: #FFFFFF;
 border-radius: 40px;
 z-index: 8}
 
+/* Query Text */
 .query-text{
   position: absolute;
   width: 185px;
@@ -172,6 +186,7 @@ z-index: 8}
   text-align: center;
   color: #000000;}
 
+/* The Wrong Idea... Box */
 .wrongidea-box{
 position: absolute;
 height: 290px;
@@ -182,6 +197,8 @@ background: #EBCD9B;
 border-radius: 80px;
 z-index: 2
 }
+
+/* The Wrong Idea... Text */
 .wrongidea-text{
   position: absolute;
   width: 349px;
@@ -196,6 +213,8 @@ z-index: 2
   text-align: center;
   color: #000000;
 }
+
+/* Semicolons Box */
 .semicolons-box{
 position: absolute;
 width: 380px;
@@ -206,6 +225,7 @@ background: #FFFFFF;
 border-radius: 70px;
 z-index: 8}
 
+/* Semicolons Text */
 .semicolons-text{
   position: absolute;
   width: 379px;
@@ -220,6 +240,8 @@ z-index: 8}
   text-align: center;
   color: #000000;
 }
+
+/* End Box */
 .end-box{
 position: absolute;
 width: 350px;
@@ -230,6 +252,8 @@ background: #141414;
 border-radius: 30px;
 z-index: 9
 }
+
+/* End Text */
 .end-text{
 position: absolute;
 width: 300px;
@@ -243,46 +267,7 @@ font-size: 140px;
 line-height: 78px;
 text-align: center;
 color: #FFFFFF;}
+    
+   
 
-    .box-1 {
-    position: absolute;
-    height: 200px;
-    width: 300px;
-    border: 1px solid red;
-    background-color: yellow;
-    z-index: 2; /* Z-index controls the stacking order */
-  }
-
-  .box-2 {
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    height: 400px;
-    width: 200px;
-    border: 1px solid blue;
-    background-color: purple;
-    color: white;
-    font-size: 30px;
-    z-index: 3;
-
-    /* This pushes the text down and to the right */
-    padding-top: 156px;
-    padding-left: 24px;
-    text-align: right;
-
-    /* Use this to change the text orientation */
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-  }
-
-  .box-3 {
-    position: absolute;
-    z-index: 1;
-    left: 40%;
-    height: 200px;
-    width: 300px;
-    border: 1px solid rgb(5 124 58);
-    background-color: rgb(42, 224, 182);
-    font-size: 20px;
-    font-weight: bold;
-  }
+    

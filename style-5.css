@@ -1,0 +1,399 @@
+body{position: relative;
+    background: #BEBFC4;}
+
+* {
+    box-sizing: border-box;
+  }
+
+/* Exists Box */
+.exists-box{
+    position: absolute;
+    width: 567px;
+    height: 429px;
+    left: 21px;
+    top: 24px;
+    background: #203B2A;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+/* Exists Text */
+.exists-text{
+    position: absolute;
+    width: 298px;
+    height: 191px;
+    left: 43px;
+    top: 61px;
+    font-family: 'Brawler';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 104px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Screen Box */
+.screen-box{
+  position: absolute;
+  height: 459.69px;
+  width: 347.81px;
+  left: 400px;
+  top: 100px;
+  background: #FFFFFF;
+  border-radius: 20px;;
+  z-index: 5;}
+
+/* Screen Text */
+.screen-text{
+  position: absolute;
+  width: 528px;
+  height: 348px;
+  left: 10px;
+  top: 24px;font-family: 'Brawler';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 156px;
+  text-align: center;
+  color: #000000;;
+  transform: rotate(-90deg);}
+
+/* Thrill Box */
+.thrill-box{
+  position: absolute;
+  height: 300px;
+  width: 370px;
+  left: 700px;
+  top: 120px;
+  background: #EBCD9B;
+  border-radius: 15px;
+  z-index: 6}
+
+/* Thrill Text */
+.thrill-text{
+  position: absolute;
+  width: 346px;
+  height: 128px;
+  left: 10px;
+  top: 90px;
+  font-family: 'Brawler';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 117px;
+  text-align: center;
+  color: #203B2A;}
+
+/* Marathon Box */
+.marathon-box{
+  position: absolute;
+  width: 528px;
+  height: 348px;
+  left: 1000px;
+  top: 24px;
+  background: #060E10;
+  border-radius: 40px;
+  z-index: 4;}
+
+/* Marathon Text */
+.marathon-text{
+  position: absolute;
+  width: 363px;
+  height: 288px;
+  left: 80px;
+  top: 61px;
+  font-family: 'Brawler';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 156px;
+  text-align: center;
+  color: #FFFFFF;}
+
+/* Incongruent Box */
+.incongruent-box{
+position: absolute;
+width: 400px;
+height: 301px;
+left: 630px;
+top: 328px;
+background: #B4BCBC;
+border-radius: 60px;
+z-index: 7}
+
+/* Incongruent Text */
+.incongruent-text{
+position: absolute;
+width: 373px;
+height: 205px;
+left: 10px;
+top: 150px;
+font-family: 'Brawler';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 117px;
+text-align: center;
+color: #000000;}
+
+/* Dignification Box */
+.dignification-box{
+    position: absolute;
+    width: 600px;
+    height: 505px;
+    left: 1000px;
+    top: 352px;
+    background: #29375A;
+    border-radius: 80px;
+    z-index: 3}
+
+/* Dignification Text */
+.dignification-text{
+    position: absolute;
+    width: 298px;
+    height: 191px;
+    left: 80px;
+    top: 150px;
+    font-family: 'Brawler';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 104px;
+    text-align: center;
+    color: #FFFFFF;}
+
+/* Inevitable Box */
+.inevitable-box{
+position: absolute;
+height: 290px;
+width: 550px;
+left: 300px;
+top: 580px;
+background: #EBCD9B;
+border-radius: 80px;
+z-index: 2}
+
+/* Inevitable Text */
+.inevitable-text{
+  position: absolute;
+  width: 349px;
+  height: 104px;
+  left: 120px;
+  top: 70px;
+  font-family: 'Brawler';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 78px;
+  text-align: center;
+  color: #000000;}
+
+/* Paper Box */
+.paper-box{
+position: absolute;
+width: 230px;
+height: 208px;
+left: 800px;
+top: 616px;
+background: #FFFFFF;
+border-radius: 40px;
+z-index: 8}
+
+/* Paper Text */
+.paper-text{
+  position: absolute;
+  width: 185px;
+  height: 98px;
+  left: 20px;
+  top: 50px;
+  font-family: 'Brawler';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 78px;
+  text-align: center;
+  color: #000000;}
+
+/* Origins Box */
+.origins-box{
+position: absolute;
+width: 300px;
+height: 250px;
+left: 200px;
+top: 300px;
+background: #141414;
+border-radius: 30px;
+z-index: 9}
+
+/* Origins Text */
+.origins-text{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 50px;
+top: 80px;
+font-family: 'Brawler';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 78px;
+text-align: center;
+color: #FFFFFF;}
+
+/* Fufilled Box */
+.fufilled-box{
+position: absolute;
+width: 380px;
+height: 310px;
+left: 21px;
+top: 550px;
+background: #FFFFFF;
+border-radius: 70px;
+z-index: 8}
+
+/* Fufilled Text */
+.fufilled-text{
+    position: absolute;
+    width: 379px;
+    height: 201px;
+    left: 10px;
+    top: 60px;
+    font-family: 'Brawler';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 78px;
+    text-align: center;
+    color: #000000;}
+
+/* Traced Box */
+.traced-box{
+position: absolute;
+width: 251px;
+height: 154px;
+left: 21px;
+top: 174px;
+background: #D9D9D9;
+border-radius: 40px;
+z-index: 10}
+
+/* Traced Text */
+.traced-text{
+position: absolute;
+width: 199px;
+height: 132px;
+left: 20px;
+top: 30px;
+font-family: 'Brawler';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 78px;
+text-align: center;
+color: #000000;}
+
+/* Similar Box */
+.similar-box{
+position: absolute;
+width: 220px;
+height: 220px;
+left: 21px;
+top: 351px;
+background: #29375A;
+border-radius: 50px;
+z-index: 11}
+
+/* Similar Text */
+.similar-text{
+position: absolute;
+width: 185px;
+height: 119px;
+left: 20px;
+top: 50px;
+font-family: 'Brawler';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 61px;
+text-align: center;
+color: #FFFFFF;}
+
+/* Language Box */
+.language-box{
+position: absolute;
+width: 349px;
+height: 213px;
+left: 1044px;
+top: 270px;
+background: #D9D9D9;
+border-radius: 60px;
+z-index: 12}
+
+/* Language Text */
+.language-text{
+position: absolute;
+width: 284px;
+height: 153px;
+left: 30px;
+top: 50px;
+font-family: 'Brawler';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 78px;
+text-align: center;
+color: #000000;}
+
+/* Mark Box */
+.mark-box{
+    position: absolute;
+    width: 196px;
+    height: 169px;
+    left: 627px;
+    top: 320px;
+    background: #D9D9D9;
+    border-radius: 40px;
+    z-index: 13}
+
+
+/* Mark Text */
+.mark-text{
+    position: absolute;
+    width: 168px;
+    height: 97px;
+    left: 10px;
+    top: 50px;
+    font-family: 'Brawler';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 78px;
+    text-align: center;
+    color: #000000;}
+
+/* Homebound Box */
+.homebound-box{
+position: absolute;
+width: 550px;
+height: 200px;
+left: 1050px;
+top: 620px;
+background: #D9D9D9;
+border-radius: 50px;
+z-index: 14}
+
+/* Homebound Text */
+.homebound-text{
+position: absolute;
+width: 338px;
+height: 127px;
+left: 50px;
+top: 50px;
+font-family: 'Brawler';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 73px;
+text-align: center;
+color: #000000;}
